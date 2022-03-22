@@ -1,0 +1,11 @@
+<%- include('shared/header.ejs')  %>
+    <div class="container text-center w-50 my-5">
+        
+        <h4>Enter your Email</h4>
+        <form action="/send" method="POST">
+    <input name="email" class="form-control my-3" placeholder="Enter you email" type="email" >
+    <button class="btn btn-default-outline w-100">send</button>
+        </form>
+    </div>
+
+    <%- include('shared/footer.ejs')  %>
